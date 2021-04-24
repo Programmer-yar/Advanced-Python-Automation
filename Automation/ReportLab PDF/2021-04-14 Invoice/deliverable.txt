@@ -1,0 +1,3 @@
+Write a Python 3 script leveraging the ReportLab library to create a PDF invoice from JSON data. We will supply (a) two JSON files with sample data and (b) two PDFs rendered with the supplied sample JSON data.
+
+The deliverable is a Python script that takes the input JSONs (a) and renders PDFs (b) that are exactly the same as the supplied model PDFs, including positioning, formatting, fonts, word-wrap, etc.  etc. The script should be able to handle any other JSON to render PDFs similar to the models supplied. It should include error handling and logging.

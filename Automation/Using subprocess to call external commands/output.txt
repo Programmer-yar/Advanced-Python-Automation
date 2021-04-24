@@ -1,0 +1,17 @@
+Active code page: 1252
+ Volume in drive C has no label.
+ Volume Serial Number is 9C79-DD1B
+
+ Directory of C:\Users\Ahmad Yar\AppData\Local\Programs\Python\Python38-32\Automation\Using subprocess to call external commands
+
+03/10/2021  08:35 PM    <DIR>          .
+03/10/2021  08:35 PM    <DIR>          ..
+03/10/2021  07:13 PM             1,306 1-using subprocess to run external commands by coreyms.py
+03/10/2021  09:10 PM               743 2-using subprocess by coreyms.py
+07/30/2020  02:47 PM                 0 a text file.txt
+07/30/2020  02:48 PM                 0 another text file.txt
+03/10/2021  12:52 PM               181 launching other programs using subprocess.py
+03/10/2021  09:10 PM                 0 output.txt
+01/20/2021  03:44 PM    <DIR>          test_env
+               6 File(s)          2,230 bytes
+               3 Dir(s)  16,286,826,496 bytes free

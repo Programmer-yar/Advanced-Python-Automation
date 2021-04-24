@@ -1,0 +1,17 @@
+================>Web Scraping with beautifulsoup4<=====================
+1- We will use 'requests' library to perform http requests.
+   (urllib also available in beautifulsoup4)
+
+2- To parse scraped data we will use 'lxml' parser
+   (can also use 'html5lib' parser)
+--------------------------------------------------------
+3- Procedure:
+   i) first inspect the page element you want to scrape
+   ii) scrape only one element and check the results and then using loop scrape all
+
+4- about Urls:
+    - after '?' there are query parameters
+    - e.g: https://www.youtube.com/embed/z0gguhEmWiY?version=3&rel=1&showsearch=0&showinfo=1
+	   &iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent 
+
+5- 

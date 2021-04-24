@@ -1,0 +1,5 @@
+1- page size letter (8.5"x11")
+2- By default drawing reference is from "bottom left" corner.
+3- Default points : 1 point = 1/72 inch
+4- zoom at 117.5% in foxit reader to get 8.5" width
+5- units like inches, cm, mm can also be used for drawing

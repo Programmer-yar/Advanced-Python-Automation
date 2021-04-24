@@ -1,0 +1,30 @@
+1- Invoice number
+   OrderDetails['Order_Number__c']
+2- Invoice Date
+   OrderDetails['LastModifiedDate']
+
+3-Order Information box:
+  Order Date = OrderDetails['ActivatedDate']
+  Order Name = OrderDetails['Name']
+  Client Matter Number: None
+  Total Amount Due = OrderDetails['TotalAmount']
+  Processed By = N/A
+  Authorized By = N/A
+
+4- Bill To Box:
+   OrderDetails['Account']['Name']
+   OrderDetails['BillingStreet']
+   OrderDetails['BillingCity'] + ',' + OrderDetails['BillingState'] + OrderDetails['BillingPostalCode']
+
+5- Main Table:
+   loop through list attached with "OrderItems"
+   for item in OrderItems:
+      item['Search_Name__c'] (DESCRIPTION COLUMN)
+      item['Jurisdiction__r']['Name'] (JURISDICTION COLUMN)
+
+
+6- End Boxes:
+   left: Order Number same as Invoice Number
+   right: 
+   		Fixed
+   		
